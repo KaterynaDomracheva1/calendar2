@@ -8,12 +8,6 @@
     }
 
 
-    body
-    {
-        display: flex;
-        
-    }
-
     div.time
     {
         width: 500px;
@@ -31,7 +25,7 @@
     top: 1%;
 }
 
-.layout
+    .layout
 {
     width: 20px;
     height: 15px;
@@ -46,12 +40,43 @@
         margin: 30px;
         margin-left: 5px;
     }
+
     .task-1, .task-2, .task-3
     {
         width: 300px;
-        height: 30px;
     }
     
+    .task-1
+    {
+       
+        height: 50px;
+        position: relative;
+        bottom: 648px;
+        left: 130px;
+        line-height: 50px;
+    }
+    
+    
+    .task-2
+    {
+        
+        height: 123px;
+        position: relative;
+        bottom: 618px;
+        left: 130px;
+        line-height: 123px;
+        
+    }
+    
+    .task-3
+    {  
+        height: 98px;
+        position: relative;
+        bottom: 565px;
+        left: 130px;
+        line-height: 98px;  
+    }
+
     div.date
     {
        margin: 0px;
@@ -67,10 +92,6 @@
         
     }
     
-    /* #shape
-    {
-        margin-right: 10px;
-    } */
     
     .line1, .line2, .line3, .line4, .line5, .line6 
     {
@@ -85,14 +106,14 @@
     .circle1
     {
         position: relative;
-        left: 19px;
+        left: 17px;
         
     }
     
     .circle2
     {
         position: relative;
-        left: 21px;
+        left: 19px;
     }  
     
     
