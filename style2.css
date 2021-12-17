@@ -1,0 +1,99 @@
+
+@media screen and (max-width: 850px) {
+    
+    #verticalline1, #verticalline2, #verticalline3, #timeline2, #timeline3, #timeline4, 
+    #timeline5, #timeline6, #timeline7, #timeline8, .categories, button
+    {
+        visibility: hidden;
+    }
+
+
+    body
+    {
+        display: flex;
+        
+    }
+
+    div.time
+    {
+        width: 500px;
+        height: 650px;
+        position: static;
+    }
+
+    .search
+{
+    width: 20px;
+    height: 15px;
+
+    position: relative;
+    right: -58%;
+    top: 1%;
+}
+
+.layout
+{
+    width: 20px;
+    height: 15px;
+
+    position: relative;
+    right: -60%;
+    top: 1%;
+}
+
+    ul.time1 li 
+    {
+        margin: 30px;
+        margin-left: 5px;
+    }
+    .task-1, .task-2, .task-3
+    {
+        width: 300px;
+        height: 30px;
+    }
+    
+    div.date
+    {
+       margin: 0px;
+       flex-grow: 1;
+       height: 645px;
+       width: 300px;
+    }
+    
+    hr.calendar
+    {
+        margin-left: 23px;
+        width: 250px;
+        
+    }
+    
+    /* #shape
+    {
+        margin-right: 10px;
+    } */
+    
+    .line1, .line2, .line3, .line4, .line5, .line6 
+    {
+        padding-left: 28px;
+    }
+    
+    #l1
+    {
+        padding-left: 25px;
+    }
+    
+    .circle1
+    {
+        position: relative;
+        left: 19px;
+        
+    }
+    
+    .circle2
+    {
+        position: relative;
+        left: 21px;
+    }  
+    
+    
+    }
